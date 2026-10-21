@@ -1,0 +1,27 @@
+# Linux 下无扩展名的可执行文件（与 .cpp 同名）
+*
+!*/
+!*.*
+
+# 常见编译/链接产物
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+a.out
+
+# 需要保留的无扩展名文件（以后若新增再打开）
+!Makefile
+!README
+!LICENSE
+
+# CMake out-of-source 构建目录
+build/
+
+# clangd / CMake Tools 生成的编译数据库与索引
+compile_commands.json
+.cache/
+.vscode/
