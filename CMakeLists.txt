@@ -9,6 +9,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # 单文件示例：<name>.cpp -> 可执行文件 <name>
 set(EXAMPLES
   01_nullptr_test
+  02_constexpr_test
 )
 
 foreach(name IN LISTS EXAMPLES)
