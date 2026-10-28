@@ -10,6 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(EXAMPLES
   01_nullptr_test
   02_constexpr_test
+  03_initializer_list
 )
 
 foreach(name IN LISTS EXAMPLES)
