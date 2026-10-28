@@ -11,6 +11,7 @@ set(EXAMPLES
   01_nullptr_test
   02_constexpr_test
   03_initializer_list
+  04_structured_bindings
 )
 
 foreach(name IN LISTS EXAMPLES)
